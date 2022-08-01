@@ -1,0 +1,32 @@
+      methods:
+      
+method is a named block or pre defined program which evalutes single expression or multiple expressions.
+  Every method identified with "name and arguments"
+  Every method defined in side class.
+To access method with help of object.
+   Method to perform specific action based on requirement.
+   Methods are classified into 2 types
+ 1)pre defined :these methods are defined by authors with help of classname and packages.
+  ex: println(),readline(),console()...etc
+ 2)user defined:these methods are defined by user  based on requirement. these methods are divided into 4 types
+  1)no return,no args 
+2)no return,with args
+3)with return,with args
+4)with return,without args
+  advantages of methods:
+  1)reusability
+2)security
+3)modularity
+4)portability
+5)code clarity
+ note:Every method created with two steps "method defination" and "method calling"
+  1)no return,no args
+ syntax: class classname
+ {  
+  void methodname() // method defination
+   {
+    st-1;
+  ...
+ } 
+  classname obj=new classname();
+  obj.methodname();//method calling
